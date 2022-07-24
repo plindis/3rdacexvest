@@ -55,7 +55,7 @@ class XtdGearModels
 			{
 				label = "Mos";
 				values[] =
-					{"Assaulters", "LMG", "Medics", "Comms", "Team Leader", "Breacher", "Grenadier", "MK17", "KZ"}
+					{"Assaulters", "LMG", "Medic", "JTAC", "Team Leader", "Breacher", "Grenadier", "MK17", "KZ"}
 			};
 			class extras : ExtrasBase
 			{
@@ -216,6 +216,205 @@ class CfgWeapons
 			Extras = "20";
 		};
 	};
+	class Viking_viking_avs_555 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="Assaulters";
+			Extras = "4";
+		};
+	};
+	class Viking_viking_avs_556 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="Assaulters";
+			Extras = "5";
+		};
+	};
+	class Viking_viking_avs_557 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="Assaulters";
+			Extras = "6";
+		};
+	};
+	class Viking_viking_avs_558 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="Assaulters";
+			Extras = "7";
+		};
+	};
+	class Viking_viking_avs_559 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="Assaulters";
+			Extras = "8";
+		};
+	};
+	class Viking_viking_avs_560 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="Assaulters";
+			Extras = "9";
+		};
+	};
+	class Viking_viking_avs_579 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="Grenadier";
+			Extras = "1";
+		};
+	};
+	class Viking_viking_avs_580 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="Grenadier";
+			Extras = "2";
+		};
+	};
+	class Viking_viking_avs_569 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="JTAC";
+			Extras = "1";
+		};
+	};
+	class Viking_viking_avs_570 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="JTAC";
+			Extras = "2";
+		};
+	};
+	class Viking_viking_avs_571 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="JTAC";
+			Extras = "3";
+		};
+	};
+	class Viking_viking_avs_572 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="JTAC";
+			Extras = "4";
+		};
+	};
+	class Viking_viking_avs_573 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="JTAC";
+			Extras = "5";
+		};
+	};
+	class Viking_viking_avs_576 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="LMG";
+			Extras = "1";
+		};
+	};
+	class Viking_viking_avs_578 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="LMG";
+			Extras = "1";
+		};
+	};
+	class Viking_viking_avs_583 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="Medic";
+			Extras = "1";
+		};
+	};
+	class Viking_viking_avs_575 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="MK17";
+			Extras = "1";
+		};
+	};
+	class Viking_viking_avs_584 : Uniform_Base
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdvests";
+			camo = "mc";
+			Type = "AVS";
+			Mos ="MK17";
+			Extras = "2";
+		};
+	};
+
 };
 class cfgMods
 {
