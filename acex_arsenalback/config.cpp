@@ -1,8 +1,8 @@
 class CfgPatches
 {
-	class aceax_3rdvests
+	class aceax_3rdback
 	{
-		name = "aceax_3rdvests";
+		name = "aceax_3rdback";
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1.88;
@@ -24,9 +24,9 @@ class XtdGearModels
 	class ExtrasBase;
 	class CfgWeapons
 	{
-		class mod3rdvests
+		class mod3rdback
 		{
-			label = "[3rd] vests";
+			label = "[3rd] back";
 			author = "prota";
 			options[] =
 				{
@@ -39,7 +39,8 @@ class XtdGearModels
 				label = "camo";
 				values[] =
 					{
-						"mc"
+						"mc",
+						"od"
 					};
 			};
 			class Type : Typebase
@@ -48,14 +49,18 @@ class XtdGearModels
 				values[] =
 					{
 
-						"AVS",
-						"JPC"};
+						"backpanel",
+						"flatpack",
+						"rush",
+						"30L",
+						"modular",
+						};
 			};
 			class Mos : Mosbase
 			{
 				label = "Mos";
 				values[] =
-					{"Assaulters", "LMG", "Medic", "JTAC", "Team Leader", "Breacher", "Grenadier", "MK17", "KZ"};
+					{"Assaulters", "Candidate", "Medic", "JTAC", "Team Leader", "Breacher", "Grenadier", "MK17", "KZ"};
 			};
 			class extras : ExtrasBase
 			{
@@ -73,348 +78,353 @@ class CfgWeapons
 {
 	class Uniform_Base;
 	class UniformItem;
-	class Viking_viking_avs_586 : Uniform_Base
+	class packpanel_1 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
-			Mos ="Breacher";
-			Extras = "1";
-		};
-	};
-	class Viking_viking_avs_585 : Uniform_Base
-	{
-		class XtdGearInfo
-		{
-			model = "mod3rdvests";
-			camo = "mc";
-			Type = "AVS";
-			Mos ="KZ";
-			Extras = "1";
-		};
-	};
-	class Viking_viking_avs_561 : Uniform_Base
-	{
-		class XtdGearInfo
-		{
-			model = "mod3rdvests";
-			camo = "mc";
-			Type = "AVS";
-			Mos ="Assaulters";
-			Extras = "7";
-		};
-	};
-	class Viking_viking_avs_562 : Uniform_Base
-	{
-		class XtdGearInfo
-		{
-			model = "mod3rdvests";
-			camo = "mc";
-			Type = "AVS";
-			Mos ="Assaulters";
-			Extras = "8";
-		};
-	};
-	class Viking_viking_avs_563 : Uniform_Base
-	{
-		class XtdGearInfo
-		{
-			model = "mod3rdvests";
-			camo = "mc";
-			Type = "AVS";
-			Mos ="Assaulters";
-			Extras = "8";
-		};
-	};
-	class Viking_viking_avs_564 : Uniform_Base
-	{
-		class XtdGearInfo
-		{
-			model = "mod3rdvests";
-			camo = "mc";
-			Type = "AVS";
-			Mos ="Assaulters";
-			Extras = "9";
-		};
-	};
-	class Viking_viking_avs_565 : Uniform_Base
-	{
-		class XtdGearInfo
-		{
-			model = "mod3rdvests";
-			camo = "mc";
-			Type = "AVS";
-			Mos ="Assaulters";
-			Extras = "10";
-		};
-	};
-	class Viking_viking_avs_566 : Uniform_Base
-	{
-		class XtdGearInfo
-		{
-			model = "mod3rdvests";
-			camo = "mc";
-			Type = "AVS";
-			Mos ="Assaulters";
-			Extras = "11";
-		};
-	};
-	class Viking_viking_avs_567 : Uniform_Base
-	{
-		class XtdGearInfo
-		{
-			model = "mod3rdvests";
-			camo = "mc";
-			Type = "AVS";
-			Mos ="Assaulters";
-			Extras = "12";
-		};
-	};
-	class Viking_viking_avs_568 : Uniform_Base
-	{
-		class XtdGearInfo
-		{
-			model = "mod3rdvests";
-			camo = "mc";
-			Type = "AVS";
-			Mos ="Assaulters";
-			Extras = "13";
-		};
-	};
-	class Viking_viking_avs_574 : Uniform_Base
-	{
-		class XtdGearInfo
-		{
-			model = "mod3rdvests";
-			camo = "mc";
-			Type = "AVS";
-			Mos ="Assaulters";
-			Extras = "14";
-		};
-	};
-	class Viking_viking_avs_581 : Uniform_Base
-	{
-		class XtdGearInfo
-		{
-			model = "mod3rdvests";
-			camo = "mc";
-			Type = "AVS";
-			Mos ="Assaulters";
-			Extras = "15";
-		};
-	};
-	class Viking_viking_avs_582 : Uniform_Base
-	{
-		class XtdGearInfo
-		{
-			model = "mod3rdvests";
-			camo = "mc";
-			Type = "AVS";
-			Mos ="Assaulters";
-			Extras = "16";
-		};
-	};
-	class Viking_viking_avs_555 : Uniform_Base
-	{
-		class XtdGearInfo
-		{
-			model = "mod3rdvests";
-			camo = "mc";
-			Type = "AVS";
+			Type = "backpanel";
 			Mos ="Assaulters";
 			Extras = "1";
 		};
 	};
-	class Viking_viking_avs_556 : Uniform_Base
+	class packpanel_2 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
+			Type = "backpanel";
 			Mos ="Assaulters";
 			Extras = "2";
 		};
 	};
-	class Viking_viking_avs_557 : Uniform_Base
+	class packpanel_3 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
+			Type = "backpanel";
 			Mos ="Assaulters";
 			Extras = "3";
 		};
 	};
-	class Viking_viking_avs_558 : Uniform_Base
+	class packpanel_4 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
+			Type = "backpanel";
 			Mos ="Assaulters";
 			Extras = "4";
 		};
 	};
-	class Viking_viking_avs_559 : Uniform_Base
+	class packpanel_8 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
+			Type = "backpanel";
 			Mos ="Assaulters";
 			Extras = "5";
 		};
 	};
-	class Viking_viking_avs_560 : Uniform_Base
+	class packpanel_9 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
+			Type = "backpanel";
 			Mos ="Assaulters";
 			Extras = "6";
 		};
 	};
-	class Viking_viking_avs_579 : Uniform_Base
+	class packpanel_10 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
-			Mos ="Grenadier";
+			Type = "backpanel";
+			Mos ="Assaulters";
+			Extras = "7";
+		};
+	};
+	class packpanel_11 
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdback";
+			camo = "mc";
+			Type = "backpanel";
+			Mos ="Assaulters";
+			Extras = "8";
+		};
+	};
+	class packpanel_12 
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdback";
+			camo = "mc";
+			Type = "backpanel";
+			Mos ="Assaulters";
+			Extras = "9";
+		};
+	};
+	class packpanel_31 
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdback";
+			camo = "mc";
+			Type = "backpanel";
+			Mos ="candidate";
 			Extras = "1";
 		};
 	};
-	class Viking_viking_avs_580 : Uniform_Base
+	class packpanel_32 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
-			Mos ="Grenadier";
+			Type = "backpanel";
+			Mos ="candidate";
 			Extras = "2";
 		};
 	};
-	class Viking_viking_avs_569 : Uniform_Base
+	class packpanel_33 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
+			Type = "backpanel";
+			Mos ="candidate";
+			Extras = "3";
+		};
+	};
+	class packpanel_34 
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdback";
+			camo = "mc";
+			Type = "backpanel";
+			Mos ="candidate";
+			Extras = "4";
+		};
+	};
+	class packpanel_35 
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdback";
+			camo = "mc";
+			Type = "backpanel";
+			Mos ="candidate";
+			Extras = "5";
+		};
+	};
+	class packpanel_5 
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdback";
+			camo = "mc";
+			Type = "backpanel";
 			Mos ="JTAC";
 			Extras = "1";
 		};
 	};
-	class Viking_viking_avs_570 : Uniform_Base
+	class packpanel_6 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
+			Type = "backpanel";
 			Mos ="JTAC";
 			Extras = "2";
 		};
 	};
-	class Viking_viking_avs_571 : Uniform_Base
+	class packpanel_7 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
+			Type = "backpanel";
 			Mos ="JTAC";
 			Extras = "3";
 		};
 	};
-	class Viking_viking_avs_572 : Uniform_Base
+	class Apex_LR_Bag_1 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
+			Type = "backpanel";
 			Mos ="JTAC";
 			Extras = "4";
 		};
 	};
-	class Viking_viking_avs_573 : Uniform_Base
+	class Apex_LR_Bag_2 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
+			Type = "backpanel";
 			Mos ="JTAC";
 			Extras = "5";
 		};
 	};
-	class Viking_viking_avs_576 : Uniform_Base
+	
+	class backpanel_15 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
-			Mos ="LMG";
-			Extras = "1";
+			Type = "backpanel";
+			Mos ="JTAC";
+			Extras = "6";
 		};
 	};
-	class Viking_viking_avs_578 : Uniform_Base
+	class backpanel_17 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
-			Mos ="LMG";
-			Extras = "2";
+			Type = "backpanel";
+			Mos ="JTAC";
+			Extras = "7";
 		};
 	};
-	class Viking_viking_avs_583 : Uniform_Base
+	class backpanel_18 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
-			Mos ="Medic";
-			Extras = "1";
+			Type = "backpanel";
+			Mos ="JTAC";
+			Extras = "8";
 		};
 	};
-	class Viking_viking_avs_575 : Uniform_Base
+	class backpanel_19 
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
-			Mos ="MK17";
-			Extras = "1";
+			Type = "backpanel";
+			Mos ="JTAC";
+			Extras = "9";
 		};
 	};
-	class Viking_viking_avs_584 : Uniform_Base
+	class backpanel_20
 	{
 		class XtdGearInfo
 		{
-			model = "mod3rdvests";
+			model = "mod3rdback";
 			camo = "mc";
-			Type = "AVS";
-			Mos ="MK17";
-			Extras = "2";
+			Type = "backpanel";
+			Mos ="JTAC";
+			Extras = "10";
+		};
+	};
+	class backpanel_24 
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdback";
+			camo = "mc";
+			Type = "backpanel";
+			Mos ="JTAC";
+			Extras = "11";
+		};
+	};
+	class backpanel_25 
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdback";
+			camo = "mc";
+			Type = "backpanel";
+			Mos ="JTAC";
+			Extras = "12";
 		};
 	};
 
+	
+	
+	
+	
+	class backpanel_26 
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdback";
+			camo = "mc";
+			Type = "backpanel";
+			Mos ="Breacher";
+			Extras = "1";
+		};
+	};
+	class backpanel_27 
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdback";
+			camo = "mc";
+			Type = "backpanel";
+			Mos ="Breacher";
+			Extras = "2";
+		};
+	};
+	class backpanel_28 
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdback";
+			camo = "mc";
+			Type = "backpanel";
+			Mos ="Breacher";
+			Extras = "3";
+		};
+	};
+	class backpanel_29 
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdback";
+			camo = "mc";
+			Type = "backpanel";
+			Mos ="Breacher";
+			Extras = "4";
+		};
+	};
+	class backpanel_30 
+	{
+		class XtdGearInfo
+		{
+			model = "mod3rdback";
+			camo = "mc";
+			Type = "backpanel";
+			Mos ="Breacher";
+			Extras = "5";
+		};
+	};
 };
 class cfgMods
 {
