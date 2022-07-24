@@ -55,13 +55,13 @@ class XtdGearModels
 			{
 				label = "Mos";
 				values[] =
-					{"Assaulters", "LMG", "Medic", "JTAC", "Team Leader", "Breacher", "Grenadier", "MK17", "KZ"}
+					{"Assaulters", "LMG", "Medic", "JTAC", "Team Leader", "Breacher", "Grenadier", "MK17", "KZ"};
 			};
 			class extras : ExtrasBase
 			{
 				label = "Extras";
 				values[] =
-					{"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15","16","17","18","19","20"}
+					{"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15","16"};
 			};
 		};
 
@@ -103,7 +103,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "10";
+			Extras = "7";
 		};
 	};
 	class Viking_viking_avs_562 : Uniform_Base
@@ -114,7 +114,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "11";
+			Extras = "8";
 		};
 	};
 	class Viking_viking_avs_563 : Uniform_Base
@@ -125,7 +125,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "12";
+			Extras = "8";
 		};
 	};
 	class Viking_viking_avs_564 : Uniform_Base
@@ -136,7 +136,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "13";
+			Extras = "9";
 		};
 	};
 	class Viking_viking_avs_565 : Uniform_Base
@@ -147,7 +147,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "14";
+			Extras = "10";
 		};
 	};
 	class Viking_viking_avs_566 : Uniform_Base
@@ -158,7 +158,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "15";
+			Extras = "11";
 		};
 	};
 	class Viking_viking_avs_567 : Uniform_Base
@@ -169,7 +169,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "16";
+			Extras = "12";
 		};
 	};
 	class Viking_viking_avs_568 : Uniform_Base
@@ -180,7 +180,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "17";
+			Extras = "13";
 		};
 	};
 	class Viking_viking_avs_574 : Uniform_Base
@@ -191,7 +191,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "18";
+			Extras = "14";
 		};
 	};
 	class Viking_viking_avs_581 : Uniform_Base
@@ -202,7 +202,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "19";
+			Extras = "15";
 		};
 	};
 	class Viking_viking_avs_582 : Uniform_Base
@@ -213,7 +213,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "20";
+			Extras = "16";
 		};
 	};
 	class Viking_viking_avs_555 : Uniform_Base
@@ -224,7 +224,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "4";
+			Extras = "1";
 		};
 	};
 	class Viking_viking_avs_556 : Uniform_Base
@@ -235,7 +235,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "5";
+			Extras = "2";
 		};
 	};
 	class Viking_viking_avs_557 : Uniform_Base
@@ -246,7 +246,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "6";
+			Extras = "3";
 		};
 	};
 	class Viking_viking_avs_558 : Uniform_Base
@@ -257,7 +257,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "7";
+			Extras = "4";
 		};
 	};
 	class Viking_viking_avs_559 : Uniform_Base
@@ -268,7 +268,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "8";
+			Extras = "5";
 		};
 	};
 	class Viking_viking_avs_560 : Uniform_Base
@@ -279,7 +279,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="Assaulters";
-			Extras = "9";
+			Extras = "6";
 		};
 	};
 	class Viking_viking_avs_579 : Uniform_Base
@@ -378,7 +378,7 @@ class CfgWeapons
 			camo = "mc";
 			Type = "AVS";
 			Mos ="LMG";
-			Extras = "1";
+			Extras = "2";
 		};
 	};
 	class Viking_viking_avs_583 : Uniform_Base
