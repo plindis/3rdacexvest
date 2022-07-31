@@ -47,7 +47,6 @@ class XtdGearModels
 				label = "Type";
 				values[] =
 					{
-
 						"AVS",
 						"JPC"};
 			};
@@ -73,7 +72,7 @@ class CfgWeapons
 {
 	class Uniform_Base;
 	class UniformItem;
-	class Viking_viking_avs_586 : Uniform_Base
+	class Viking_viking_avs_586
 	{
 		class XtdGearInfo
 		{
